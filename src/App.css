@@ -1,0 +1,131 @@
+/*FONTS*/
+@font-face {
+  font-family: 'Futura';
+  src: local('Futura'), local('Futura'), url('./fonts/futura/Futura.eot');
+  src: local('Futura'), local('Futura'), url('./fonts/futura/Futura.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/futura/Futura.svg#Futura') format('svg'),
+       url('./fonts/futura/Futura.ttf') format('truetype'),
+       url('./fonts/futura/Futura.woff') format('woff'),
+       url('./fonts/futura/Futura.woff') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Futura-Bold';
+  src:local('Futura-Bold'), local('Futura-Bold'), url('./fonts/futura/Futura-Bold.eot');
+  src: local('Futura-Bold'), local('Futura-Bold'), url('./fonts/futura/Futura-Bold.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/futura/Futura-Bold.svg#Futura-Bold') format('svg'),
+       url('./fonts/futura/Futura-Bold.ttf') format('truetype'),
+       url('./fonts/futura/Futura-Bold.woff') format('woff'),
+       url('./fonts/futura/Futura-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'futuramedium';
+  src: local('futuramedium'), local('futuramedium'), url('./fonts/futura/futura_medium_bt-webfont.woff2') format('woff2'),
+    url('./fonts/futura/futura_medium_bt-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/*END FONTS*/
+:root {
+  font-family: "Futura", "Lato", Helvetica, Arial, sans-serif !important;
+}
+
+body {
+  font-family: "Futura", "Lato", Helvetica, Arial, sans-serif !important;
+  font-size: 18px;
+  min-height: 100vh;
+}
+
+h3, h4 {
+  margin-bottom: 0;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 20px 30px;
+  display: block;
+}
+
+nav ul a:hover {
+  background: #2CB349;
+  color: white;
+}
+
+#page-body {
+  margin: auto;
+  min-height: 85vh;
+}
+
+.article-list-item {
+  text-decoration: none;
+  color: black;
+  padding: 16px 0 0 0;
+}
+
+#add-comment-form {
+  border-bottom: 2px solid black;
+  padding: 16px;
+}
+
+#add-comment-form h3 {
+  margin-bottom: 16px;
+}
+
+#add-comment-form input, textarea {
+  display: block;
+  width: 300px;
+  padding: 8px;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  border: 2px solid black;
+  margin-bottom: 16px;
+}
+
+#add-comment-form button {
+  width: 320px;
+}
+
+#upvotes-section button, p {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.comment {
+  border-bottom: 2px solid black;
+  padding: 16px;
+}
+
+.container {
+  max-width: 1200px !important;
+}
+.related-articles h1{
+  margin-bottom: 0.5rem !important;
+  min-height: auto !important;
+  
+}
